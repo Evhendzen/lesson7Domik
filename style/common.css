@@ -3,22 +3,26 @@
   src: local("Roboto Regular"), url("/fonts/Roboto-Regular.ttf") format("ttf");
   font-weight: 400;
 }
+
 @font-face {
   font-family: "Roboto";
   src: local("Roboto Medium"), url("/fonts/Roboto-Medium.ttf") format("ttf");
   font-weight: 500;
 }
+
 @font-face {
   font-family: "Roboto";
   src: local("Roboto Bold"), url("/fonts/Roboto-Bold.ttf") format("ttf");
   font-weight: 700;
 }
+
 @font-face {
   font-family: Vollkorn;
   src: local("Vollkorn");
   src: url("/fonts/Vollkorn-Regular.ttf");
   font-weight: 400;
 }
+
 @font-face {
   font-family: Montserrat;
   src: local("Montserrat");
@@ -26,7 +30,6 @@
 }
 
 body {
-  width: 1440px;
   font-size: 14px;
   line-height: 18px;
   font-family: "Montserrat", sans-serif;
@@ -39,3 +42,4 @@ h3 {
   font-size: 18px;
   line-height: 22px;
 }
+/*.block-body {*/
